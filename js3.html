@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="utf-8">
+<meta name="author" content="Shariful Islam">
+<title>Surprise Message!</title>
+<style>
+body {
+				text-align: center;
+				background-color: tomato;
+				color: #ffffff;}
+h1 {
+				color: #17d1ff;
+				}
+.color {
+				color: #17d1ff;
+				}
+</style>
+<script>
+function displaySurprise() {
+				var news;
+				news=document.getElementById("update");
+				news.outerHTML="<h1>We Shanthu Islam, Sayem Hasan & Shariful Islam, are travelling to ModdhoNagor, Sunday at 4:30 PM!</h1>";
+				}
+</script>
+</head>
+
+<body>
+<h2 id="update">Hi <span class="color">Mehedi Hasan & Kamrul Hasan!</span><br>Click bellow to see the news & get surprised!</h2>
+<input type="button" value="Surprise Us!" onclick="displaySurprise();">
+</body>
+</html>
